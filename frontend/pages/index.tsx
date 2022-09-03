@@ -5,8 +5,8 @@ import { useRouter } from "next/router"; // Routing
 import styles from "styles/pages/Home.module.scss"; // Page styles
 
 // Setup project details
-const tokenName: string = process.env.NEXT_PUBLIC_TOKEN_NAME ?? "Token Name";
-const heading: string = process.env.NEXT_PUBLIC_HEADING ?? "Some heading";
+const tokenName: string = process.env.NEXT_PUBLIC_TOKEN_NAME ?? "Extinct Labs";
+const heading: string = process.env.NEXT_PUBLIC_HEADING ?? "Genisis";
 const description: string =
   process.env.NEXT_PUBLIC_DESCRIPTION ?? "Some description";
 
